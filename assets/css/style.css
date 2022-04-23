@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #024e76;
+    --secondary-color: #ffffff;
+    --tertiary-color: rgb(12, 12, 12);
+}
+
+* {
+    box-sizing: border-box;
+    max-resolution: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--tertiary-color);
+    background-color: slategrey;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+}
+
+header h1 {
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px whitesmoke;
+    margin: 0 auto
+}
+
+header nav a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.run-buddy-embed {
+   width: 650px;
+   height: 400px;
+}
+
+.run-buddy:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: 0 0 10px;
+}
+
+
+.portfolio {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.portfolio h3 {
+    text-align: center;
+}
