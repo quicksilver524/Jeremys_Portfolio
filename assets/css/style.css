@@ -47,12 +47,12 @@ header nav a {
 header nav a:hover {
     background: var(--primary-color);
     color: var(--quad-color);
-    text-shadow: none;
+    border-radius: 15px;
+    text-shadow: 0 0 10px;
 }
 
 section {
     padding-top: 100px;
-    float: left;
 }
 
 section h1 {
@@ -67,10 +67,12 @@ section div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    float: left;
+    position: relative;
 }
 
 article {
-    padding-top: 1000px;
+    padding-top: 500px;
 }
 
 article h1 {
@@ -141,7 +143,6 @@ footer div address a:hover {
     text-decoration: underline;
 }
 
-
 .run-buddy-embed {
    width: 650px;
    height: 400px;
@@ -158,9 +159,7 @@ footer div address a:hover {
 .portfolio {
     float: left;
     width: 33.33%;
-
     text-align: center;
-
 }
 
 .portfolio h2 {
@@ -183,4 +182,28 @@ footer div address a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.about-me h1 {
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    padding-top: 200px;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.about-me ul img {
+    float: left;
+    margin: 10px auto;
+}
+
+.about-me h3 {
+    font-size: 20px;
+    margin: 50px 400px;
+    text-align: center;
+    padding-top: 10px;
 }
