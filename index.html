@@ -11,7 +11,7 @@
 <body>
     <header z-index: 9999;>
         <h1>
-            Hello, My name is Jeremy Klimek
+            <a href=""></a> Hello, My name is Jeremy Klimek
         </h1>
         <nav>
             <a href="index.html">Home</a>
@@ -23,101 +23,117 @@
     </header>
 
     <section id="Portfolios">
-        <h1>
-            My Portfolio's
-        </h1>
-        <div class="portfolio">
-            <h2>
-                Portfolio of Run Buddy
-            </h2>
-                <iframe class="run-buddy-embed" src="https://quicksilver524.github.io/run-buddy/" 
-                title="embedded"style="border: 0;" allowfullscreen=""></iframe>
-            <p>
-                <a class="run-buddy" href="https://quicksilver524.github.io/run-buddy/">Run Buddy 🏃 website</a>
-            </p>
-            <p>
-                <h3>Initial web development using html and css to produce a fully functional website.</h3>
-            </p>
+        <div class="flex-row">
+            <h1 class="section-title">
+                My Portfolio's
+            </h1>
         </div>
 
         <div class="portfolio">
-            <h2>Portfolio 2 placeholder</h2>
-                <img src="./assets/images/ben.jpeg" alt="" width="90%">
-                <p>
-                    <h3>Excellent Quote Given The Circumstances</h3>
-                </p>
+            <article class="portfolio-section">
+                <div>
+                    <h2>
+                        Portfolio of Run Buddy
+                    </h2>
+                </div>
+                <div class="run-buddy-embed">
+                    <iframe src="https://quicksilver524.github.io/run-buddy/" 
+                    title="embedded"style="border: 0;" allowfullscreen=""></iframe>
+                </div>
+                <div>
+                    <a class="run-buddy" href="https://quicksilver524.github.io/run-buddy/">Run Buddy 🏃 website</a>
+                    <h3>Initial web development using html and css to produce a fully functional website.</h3>
+                </div>
+            </article>
+
+            <article class="portfolio-section">
+                <h2>
+                    Portfolio 2 placeholder
+                </h2>
+                <div class="ben-franklin">
+                    <img src="./assets/images/ben.jpeg" alt="">
+                </div>
+                <div>
+                    <p>
+                        <h3>Excellent Quote Given The Circumstances</h3>
+                    </p>
+                </div>
+            </article>
+
+            <article class="portfolio-section">
+                <h2>
+                    Portfolio 3 placeholder
+                </h2>
+                <div class="youtube-embed">
+                    <iframe src="https://www.youtube.com/embed/14YOUglcLXw" SECURE_REFERRER_POLICY = "no-referrer-when-downgrade" title="YouTube video player" 
+                    frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div>
+                    <p>
+                        <h3>Music I enjoy</h3>
+                    </p>
+                </div>
+            </article>
         </div>
-
-        <div class="portfolio">
-            <h2>
-                Portfolio 3 placeholder
-            </h2>
-                <iframe width="660" height="415" src="https://www.youtube.com/embed/14YOUglcLXw" SECURE_REFERRER_POLICY = "no-referrer-when-downgrade" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-            <p>
-                <h3>Music I enjoy</h3>
-            </p>
-
-        </div>
-
     </section>
 
-    <article>
-            <h1 id="Other-Projects">
+    <section id="Other-Projects">
+        <div class="flex-row">
+            <h1 class="section-title">
                 My Other Projects
             </h1>
+        </div>
         <div class="other-projects">
-            <h2>
-                My Homemade Nintendo Switch XL
-            </h2>
-                <ul>
+            <article class="other-projects-section">
+                <div>
+                    <h2>
+                        My Homemade Nintendo Switch XL
+                    </h2>
+                </div>
+                <div>
                     <img src="./assets/images/project-1.1.JPG" alt="">
-                </ul>
-                <ul>
                     <img src="./assets/images/project-1.2.JPG" alt="">
-                </ul>
-                <ul>
                     <img src="./assets/images/project-1.3.JPG" alt="">
-                </ul>
-                <ul>
                     <img src="./assets/images/project-1.4.JPG" alt="">
-                </ul>
-        </div>
-        <div class="other-projects">
-            <h2>
-                GPD Win Max Refresh
-            </h2>
-                <ul>
-                    <img src="./assets/images/gpd-1.1.JPG" alt="">
-                </ul>
-                <ul>
-                    <img src="./assets/images/gpd-1.2.JPG" alt="">
-                </ul>
-                <ul>
-                    <img src="./assets/images/gpd-1.3.JPG" alt="">
-                </ul>
-                <ul>
-                    <img src="./assets/images/gpd-1.4.GIF" alt="">
-                </ul>
-        </div>
+                </div>
+            </article>
 
-    </article>
-    <section id="About-Me">
-        <div class="about-me">
-            <h1>
-                About Me
-            </h1>
-            <div>                
-                <img src="./assets/images/me.png" width="500px" height="500px" alt="">
-                <h3>
-                    Hello, my name is Jeremy and I enjoying coding. I am a gamer at heart, always modding and changing .ini files, .bat files and learning how things operate. I decided to go back to school, learn coding officially and make it into a future rather than just for fun since I have such enjoyment working code to meet my desired needs. I currently work as a Home Health care Therapist and work long hours. In my spare time I code for fun. I hope to expand my skill set, grow into this field and build relationships with the coding community.
-                </h3>
-            </div>   
-           
+            <article class="other-projects-section">
+                <div>
+                    <h2>
+                        GPD Win Max Refresh
+                    </h2>
+                </div>
+                <div>
+                    <img src="./assets/images/gpd-1.1.JPG" alt="">
+                    <img src="./assets/images/gpd-1.2.JPG" alt="">
+                    <img src="./assets/images/gpd-1.3.JPG" alt="">
+                    <img src="./assets/images/gpd-1.4.GIF" alt="">
+                </div>
+            </article>
         </div>
     </section>
 
+    <section id="About-Me">
+        <div class="flex-row">
+            <h1 class="section-title">
+                About Me
+            </h1>
+        </div>
+        <div class="about-me">
+            <article class="about-me-section">              
+                <div>
+                    <img src="./assets/images/me.png"alt="">
+                </div>
+                <div>
+                    <h3>
+                        Hello, my name is Jeremy and I enjoying coding. I am a gamer at heart, always modding and changing .ini files, .bat files and learning how things operate. I decided to go back to school, learn coding officially and make it into a future rather than just for fun since I have such enjoyment working code to meet my desired needs. I currently work as a Home Health care Therapist and work long hours. In my spare time I code for fun. I hope to expand my skill set, grow into this field and build relationships with the coding community.
+                    </h3>
+                </div>
+            </article>
+        </div>   
+    </section>
 </body>
 
 <footer>

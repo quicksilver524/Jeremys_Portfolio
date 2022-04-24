@@ -6,8 +6,8 @@
 }
 
 * {
-    box-sizing: border-box;
-    max-resolution: 0;
+    box-sizing: content-box;
+    margin: 0;
     padding: 0;
 }
 
@@ -35,8 +35,6 @@ header h1 {
     margin: 0;
     font-size: 35px;
     padding: 10px 10px;
-    display: flex;
-
 }
 
 header nav a {
@@ -52,45 +50,17 @@ header nav a:hover {
 }
 
 section {
-    padding-top: 100px;
+    padding: 80px;
 }
 
-section h1 {
-    font-size: 50px;
-    margin: 90px 0;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: underline;
-}
-
-section div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: left;
-    position: relative;
-}
-
-article {
-    padding-top: 500px;
-}
-
-article h1 {
-    font-size: 50px;
+article h2 {
+    font-size: 20px;
     margin: 0;
     text-align: center;
-    padding-top: 400px;
+    padding-top: 10px;
     text-decoration: underline;
 }
 
-article div {
-    display: flex;
-    margin: auto 100px auto 100px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-    
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -120,30 +90,38 @@ footer div address a:hover {
     margin-bottom: 1rem;
 }
 
-.other-projects {
-    float: left;
-    width: 33.33%;
-    margin: 0 20px 100px 200px;
+.section-title {
+    font-size: 48px;
+    color: var(--tertiary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
 
+.other-projects {;
+    color: var(--tertiary-color);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .other-projects img {
-    width: 600px;
-    height: 400px;
+    width: 60%;
     text-align: center;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 10px;
     border-radius: 20px;
 }
 
-.other-projects h2 {
-    text-align: center;
-    text-decoration: underline;
+.other-projects-section {
+    margin: 0;
+    flex: 1;
+    width: 40%;
 }
 
-.run-buddy-embed {
+.run-buddy-embed iframe {
    width: 650px;
    height: 400px;
 }
@@ -155,55 +133,67 @@ footer div address a:hover {
     text-shadow: 0 0 10px;
 }
 
- 
-.portfolio {
-    float: left;
-    width: 33.33%;
-    text-align: center;
-}
-
-.portfolio h2 {
-    text-decoration: underline;
-}
-
-.portfolio iframe {
-    width: 600px;
+.ben-franklin img {
+    width: 500px;
     height: 400px;
+}
+
+.youtube-embed iframe {
+    width: 660px; 
+    height: 415px;
+}
+
+.portfolio {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-section {
+    margin: 0;
+    flex: 1;
+}
+
+.portfolio h3 {
     text-align: center;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 20px;
 }
 
 .flex-row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.about-me h1 {
-    font-size: 50px;
-    margin: 50px;
-    text-align: center;
-    padding-top: 200px;
-    text-decoration: underline;
+.about-me {
+    border: 6px solid var(--tertiary-color);
+    background-color: rgba(255, 225, 56, 0.8);
+    padding: 10px;
+    color: var(--tertiary-color);
+    width: 40%;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
 }
 
+.about-me img {
+    margin: 1px 20px;
+    width: 50%;
+}
 
-.about-me ul img {
-    float: left;
-    margin: 10px auto;
+.about-me-section {
+    margin: 0;
+    flex: 1;
+
 }
 
 .about-me h3 {
-    font-size: 20px;
-    margin: 50px 400px;
+    font-size: 18px;
+    margin: 10px 20px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0px;
 }
