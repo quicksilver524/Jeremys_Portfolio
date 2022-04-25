@@ -11,12 +11,14 @@
     padding: 0;
 }
 
+/* Body section */
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: var(--tertiary-color);
     background-color: slategrey;
 }
 
+/* Header section */
 header {
     padding: 10px 0;
     background-color: var(--tertiary-color);
@@ -49,6 +51,7 @@ header nav a:hover {
     text-shadow: 0 0 10px;
 }
 
+/* Section Content */
 section {
     padding: 80px;
 }
@@ -61,6 +64,7 @@ article h2 {
     text-decoration: underline;
 }
 
+/* Footer */
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -77,12 +81,14 @@ footer h2 {
     text-align: right;
 }
 
+/* Email me button */ 
 footer div address a:hover {
     background: var(--tertiary-color);
     border-radius: 15px;
     text-shadow: 0 0 10px;
 }
 
+/* Home Nav Button refreshes page */
 .Home {
     display: block;
     width: 100px;
@@ -90,6 +96,7 @@ footer div address a:hover {
     margin-bottom: 1rem;
 }
 
+/* All preceeding section titles */
 .section-title {
     font-size: 48px;
     color: var(--tertiary-color);
@@ -100,6 +107,7 @@ footer div address a:hover {
     width: 50%;
 }
 
+/* Nintendo switch and Win Max section */
 .other-projects {;
     color: var(--tertiary-color);
     text-align: center;
@@ -128,11 +136,13 @@ footer div address a:hover {
 
 }
 
+/* Portfolio section */ 
 .run-buddy-embed iframe {
    width: 650px;
    height: 400px;
 }
 
+/* Run buddy button */ 
 .run-buddy:hover {
     background: var(--primary-color);
     color: var(--quad-color);
@@ -172,6 +182,7 @@ footer div address a:hover {
     display: flex;
 }
 
+/* About me section */
 .about-me {
     border: 6px solid var(--tertiary-color);
     background-color: rgba(255, 225, 56, 0.8);
@@ -205,6 +216,7 @@ footer div address a:hover {
     padding-top: 0px;
 }
 
+/* Resize options for smaller screen below 980px */ 
 @media screen and (max-width: 980px) {
 header {
     padding-bottom: 0;
