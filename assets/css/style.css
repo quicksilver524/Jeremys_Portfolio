@@ -121,6 +121,13 @@ footer div address a:hover {
     width: 40%;
 }
 
+.other-projects-section h4 {
+    width: 100%;
+    text-align: center;
+    margin: 0 10px;
+
+}
+
 .run-buddy-embed iframe {
    width: 650px;
    height: 400px;
