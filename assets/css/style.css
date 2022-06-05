@@ -1,163 +1,171 @@
 :root {
-    --primary-color: #024e76;
-    --secondary-color: #ffffff;
-    --tertiary-color: rgb(12, 12, 12);
-    --quad-color: crimson;
+  --primary-color: #024e76;
+  --secondary-color: #ffffff;
+  --tertiary-color: rgb(12, 12, 12);
+  --quad-color: crimson;
 }
 
 * {
-    box-sizing: content-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Body section */
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    color: var(--tertiary-color);
-    background-color: slategrey;
+  font-family: Helvetica, Arial, sans-serif;
+  color: var(--tertiary-color);
+  background-color: slategrey;
 }
 
 /* Header section */
 header {
-    padding: 10px 0;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 9999;
+  padding: 10px 0;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 9999;
 }
 
 header h1 {
-    color: var(--secondary-color);
-    text-shadow: 0 0 10px whitesmoke;
-    margin: 0;
-    font-size: 35px;
-    padding: 10px 10px;
+  color: var(--secondary-color);
+  text-shadow: 0 0 10px whitesmoke;
+  margin: 0;
+  font-size: 35px;
+  padding: 10px 10px;
 }
 
 header nav a {
-    padding: 10px 10px 10px 0;
-    margin: 5px 0 0 0;
+  padding: 10px 10px 10px 0;
+  margin: 5px 0 0 0;
 }
 
 header nav a:hover {
-    background: var(--primary-color);
-    color: var(--quad-color);
-    border-radius: 15px;
-    text-shadow: 0 0 10px;
+  background: var(--primary-color);
+  color: var(--quad-color);
+  border-radius: 15px;
+  text-shadow: 0 0 10px;
 }
 
 /* Section Content */
 section {
-    padding: 80px;
+  padding: 80px;
 }
 
 article h2 {
-    font-size: 20px;
-    margin: 0;
-    text-align: center;
-    padding-top: 10px;
-    text-decoration: underline;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
-    background: var(--primary-color);
-    width: 100%;
-    padding: 20px 20px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-  
-footer h2 {
-    color: var(--secondary-color);
-    font-size: 30px;
-    margin: 0;
-    text-align: right;
+  background: var(--primary-color);
+  width: 100%;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-/* Email me button */ 
+footer h2 {
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin: 0;
+  text-align: right;
+}
+
+/* Email me button */
 footer div address a:hover {
-    background: var(--tertiary-color);
-    border-radius: 15px;
-    text-shadow: 0 0 10px;
+  background: var(--tertiary-color);
+  border-radius: 15px;
+  text-shadow: 0 0 10px;
 }
 
 /* Home Nav Button refreshes page */
 .Home {
-    display: block;
-    width: 100px;
-    font-size: 20px;
-    margin-bottom: 1rem;
+  display: block;
+  width: 100px;
+  font-size: 20px;
+  margin-bottom: 1rem;
 }
 
 /* All preceeding section titles */
 .section-title {
-    font-size: 48px;
-    color: var(--tertiary-color);
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
+  font-size: 48px;
+  color: var(--tertiary-color);
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 /* Nintendo switch and Win Max section */
-.other-projects {;
-    color: var(--tertiary-color);
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.other-projects {
+  color: var(--tertiary-color);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .other-projects img {
-    width: 60%;
-    text-align: center;
-    margin: 0 10px;
-    border-radius: 20px;
+  width: 60%;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 20px;
 }
 
 .other-projects-section {
-    margin: 0;
-    flex: 1;
-    width: 40%;
+  margin: 0;
+  flex: 1;
+  width: 40%;
 }
 
 .other-projects-section h4 {
-    width: 100%;
-    text-align: center;
-    margin: 0 10px;
-
+  width: 100%;
+  text-align: center;
+  margin: 0 10px;
 }
 
-/* Portfolio section */ 
+/* Portfolio section */
 .run-buddy-embed iframe {
-   width: 650px;
-   height: 400px;
+  width: 650px;
+  height: 400px;
 }
 
-/* Run buddy button */ 
+/* Run buddy button */
 .run-buddy:hover {
-    background: var(--primary-color);
-    color: var(--quad-color);
-    border-radius: 15px;
-    text-shadow: 0 0 10px;
+  background: var(--primary-color);
+  color: var(--quad-color);
+  border-radius: 15px;
+  text-shadow: 0 0 10px;
+  size-adjust: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
-.ben-franklin img {
-    width: 500px;
-    height: 400px;
+.pc-game-reviews iframe {
+  width: 650px;
+  height: 400px;
+}
+
+.group-project:hover {
+  background: var(--primary-color);
+  color: var(--quad-color);
+  border-radius: 15px;
+  text-shadow: 0 0 10px;
 }
 
 .youtube-embed iframe {
-    width: 660px; 
-    height: 415px;
+  width: 650px;
+  height: 400px;
 }
 
 .portfolio {
@@ -170,79 +178,79 @@ footer div address a:hover {
 }
 
 .portfolio-section {
-    margin: 0;
-    flex: 1;
+  margin: 0;
+  flex: 1;
 }
 
 .portfolio h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .flex-row {
-    display: flex;
+  display: flex;
 }
 
 /* About me section */
 .about-me {
-    border: 6px solid var(--tertiary-color);
-    background-color: rgba(255, 225, 56, 0.8);
-    padding: 10px;
-    color: var(--tertiary-color);
-    width: 40%;
-    margin: 30px auto;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+  border: 6px solid var(--tertiary-color);
+  background-color: rgba(255, 225, 56, 0.8);
+  padding: 10px;
+  color: var(--tertiary-color);
+  width: 40%;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
 }
 
 .about-me img {
-    margin: 1px 20px;
-    width: 50%;
+  margin: 1px 20px;
+  width: 50%;
 }
 
 .about-me-section {
-    margin: 0;
-    flex: 1;
-
+  margin: 0;
+  flex: 1;
 }
 
 .about-me h3 {
-    font-size: 18px;
-    margin: 10px 20px;
-    text-align: center;
-    padding-top: 0px;
+  font-size: 18px;
+  margin: 10px 20px;
+  text-align: center;
+  padding-top: 0px;
 }
 
-/* Resize options for smaller screen below 980px */ 
+/* Resize options for smaller screen below 980px */
 @media screen and (max-width: 980px) {
-header {
+  header {
     padding-bottom: 0;
     justify-content: center;
     position: relative;
-}
+  }
 
-header h1 {
+  header h1 {
     width: 100%;
     text-align: center;
-}
+  }
 
-header nav ul {
+  header nav ul {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
-}
+  }
 
-.portfolio-section iframe {
+  .portfolio-section iframe {
     width: 100%;
     height: 100%;
-}
+  }
 
-.portfolio-section img {
+  .portfolio-section img {
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+  }
 }
